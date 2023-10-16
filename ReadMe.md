@@ -6,17 +6,18 @@ The subject data set is contained in a CSV and comprises more than 34,000 organi
 Data Preprocessing
 * The target variable is a simple yes or no whether the project was successful contained in the column IS_SUCCESSFUL
 * Features are:
-    * APPLICATION_TYPE        
-    * AFFILIATION
-    * CLASSIFICATION
-    * USE_CASE
-    * ORGANIZATION
-    * STATUS
-    * INCOME_AMT
-    * SPECIAL_CONSIDERATIONS
-    * ASK_AMT
+   * APPLICATION_TYPE—Alphabet Soup application type
+   * AFFILIATION—Affiliated sector of industry
+   * CLASSIFICATION—Government organization classification
+   * USE_CASE—Use case for funding
+   * ORGANIZATION—Organization type
+   * STATUS—Active status
+   * INCOME_AMT—Income classification
+   * SPECIAL_CONSIDERATIONS—Special considerations for application
+   * ASK_AMT—Funding amount requested
+   * IS_SUCCESSFUL—Was the money used effectively
 * Two variables were removed.
-    * EIN
+    * EIN (id)
     * NAME
 
 Compiling, Training, and Evaluating the Model
