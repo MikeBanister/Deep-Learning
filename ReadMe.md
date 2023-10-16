@@ -4,19 +4,19 @@ This analysis uses a neural network model to select applicants for funding with 
 
 Data Preprocessing
 * The target variable is a simple yes or no whether the project was successful contained in the column IS_SUCCESSFUL
-*Features are:
-    APPLICATION_TYPE        
-    AFFILIATION
-    CLASSIFICATION
-    USE_CASE
-    ORGANIZATION
-    STATUS
-    INCOME_AMT
-    SPECIAL_CONSIDERATIONS
-    ASK_AMT
+* Features are:
+    * APPLICATION_TYPE        
+    * AFFILIATION
+    * CLASSIFICATION
+    * USE_CASE
+    * ORGANIZATION
+    * STATUS
+    * INCOME_AMT
+    * SPECIAL_CONSIDERATIONS
+    * ASK_AMT
 * Two variables were removed.
-    EIN
-    NAME
+    * EIN
+    * NAME
 
 Compiling, Training, and Evaluating the Model
     *   The neural net was attempted with varying layers neuron counts and activtion functions.
