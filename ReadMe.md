@@ -1,6 +1,7 @@
 # Deep-Learning
 
-This analysis uses a neural network model to select applicants for funding with the best chance of success in their ventures using data contained in a CSV comprising more than 34,000 organizations that have received funding from the example VC (named Alphabet Soup) over the years.
+This analysis uses a neural network model to select applicants for funding with the best chance of success in their ventures.
+The subject data set is contained in a CSV and comprises more than 34,000 organizations that have received funding from the example VC (named Alphabet Soup) over the years.
 
 Data Preprocessing
 * The target variable is a simple yes or no whether the project was successful contained in the column IS_SUCCESSFUL
